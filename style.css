@@ -14,20 +14,20 @@ body {
 }
 
 .text > h1{
-    font-size: 3rem;
+    font-size: 40px;
     margin-bottom: 10px;
 }
 .name > img{
-    height: 3rem;
+    height: 40px;
     margin-left: 10px;
 }
 .text > p{
-    font-size: 1.5rem;
+    font-size: 20px;
     margin-top: 10px;
 }
 
 .picture {
-    height: 20rem;
+    height: 250px;
     border-radius: 10%;
     margin: 20px;
 }
@@ -47,14 +47,14 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Libre Baskerville', serif;
-    height: 250px;
-    min-width: 250px;
+    height: 200px;
+    min-width: 240px;
     margin-top: 40px;
     margin-bottom: 40px;   
 }
 .feature > img {
-    height: 5rem;
-    margin: 1.5rem;
+    height: 50px;
+    margin: 20px;
 }
 
 .working-box {
@@ -62,26 +62,26 @@ body {
     border-radius: 2%;
     display: flex;
     justify-content: space-evenly;
-    font-size: 1.5rem;
+    font-size: 20px;
     padding: 20px;
     flex-wrap: wrap;
 }
-.work-picture {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-}
+
 .work > li{
     margin-bottom: 20px;
-    font-size: 1rem;
+    font-size: 15px;
+}
+.work-text > .list{
+    padding-left: 0px;
+    list-style: decimal;
+    margin-left: 20px;
 }
 
 .price-box {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 20px;
     margin: 60px;
     flex-wrap: wrap;
 }
@@ -90,7 +90,8 @@ body {
     background-color: #D8D2C2 ;
     border: 2px black solid;
     border-radius: 10%;
-    width: 300px;
+    width: 280px;
+    padding-bottom: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -101,14 +102,45 @@ body {
     padding-bottom: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 1.5rem;
+    font-size: 30px;
 }
 .price > ul {
     list-style: none;
     padding: 0px;
-    font-size: 1rem;
+    font-size: 15px;
+}
+
+.price > a {
+    background-color: #4A4947;
+    color: white;
+    border: none;
+    border-radius: 20%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.price > a:hover {
+    background-color: #2E2D2C;
 }
 
 footer {
     text-align: center;
+}
+
+.purchase {
+    background-color: #D8D2C2 ;
+    border: #2E2D2C 2px solid;
+    border-radius: 10%;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
